@@ -243,6 +243,17 @@ hi def link file PreProc
 syn region blockComment start="\(^\|\s\)\zs/\*" end="\*/"
 hi def link blockComment Comment
 
+syn match done /^\s*X.*$/
+hi def link done Ignore
+syn match actionable /^\s*\\.*$/
+hi def link actionable Question
+syn match waiting /^\s*\/.*$/
+hi def link waiting Comment
+syn match hpWaiting /^\s*HP \/.*$/
+hi def link hpWaiting Exception
+syn match hpActionable /^\s*HP \\.*$/
+hi def link hpActionable Exception
+
 syn match strongEnd /\*\*$/
 syn match strongEnd1 /\*$/
 syn match strongEnd2 /\*$/ containedin=strongEnd contained
