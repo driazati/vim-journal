@@ -21,7 +21,7 @@
 " OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 " WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-setlocal textwidth=78
+"  setlocal textwidth=78
 setlocal autoindent
 setlocal formatoptions=tcroqn1
 silent! setlocal formatoptions+=j
